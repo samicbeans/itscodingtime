@@ -1,0 +1,189 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+a {
+  font-weight: 500;
+  color: #254e44;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #254e44;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #254e44;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #284c4e;
+    background-color: #bea983;
+  }
+  a:hover {
+    color: #cc9a0f;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  .ReadPosts {
+    color:#eee6c5;
+    background-color: #8f5b31;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 40%;
+  }
+  .ReadPosts button {
+    background-color: #98b4d3;
+    color: rgb(44, 26, 1);
+  }
+  .add{
+    display: flex;
+    align-content: right;
+    color:#eee6c5;
+    width: 30%;
+    background-color: #8f5b31;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+  }
+  h2{
+    padding-left: 80%;
+    font-size: 2rem;
+  }
+  h3{
+    padding-left: 27%;
+    font-size: 1.5rem;
+  }
+  .post-card{
+    border: solid 2rem #8f5b31;
+    background-color: rgb(231, 204, 169);
+    padding-left: 5%;
+  }
+  .sort{
+    font-weight: bold;
+    padding-left: 20%;
+  }
+  .sort label {
+    justify-content: center;
+  }
+
+  .detail{
+    background-color: #eee6c5;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 75rem;
+    padding-bottom: 2%;
+  }
+  .detail h2{
+    padding-left: 30%;
+    font-size: 3rem;
+  }
+  .detail button{
+    background-color: #b6d16d;
+    margin-left: 20%;
+  }
+  .detail p{
+    padding-top: 2%;
+    margin-left: 30%;
+  }
+  .interact-post {
+    width: 75rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 30%;
+  }
+  .addcomment{
+    background-color: rgb(231, 204, 169);
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .addcomment label{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .comment-section h3{
+    padding-left: 50%;
+  }
+  .detail .editButton{
+    background-color: #cc9a0f;
+  }
+  .detail .deleteButton{
+    background-color: #ceafa8;
+  }
+  
+  .edit{
+    background-color: #eee6c5;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 75rem;
+    padding-bottom: 2%;
+  }
+  .edit label{
+    margin-left: 20%;
+  }
+  .edit input{
+    margin-left: 20%;
+  }
+  .edit button{
+    margin-left: 20%;
+    background-color: #ceafa8;
+  }
+  .edit h1{
+    margin-left: 40%;
+  }
+  .edit .edittitle{
+    padding-left: 0%;
+    margin-left: 20%;
+  }
+  .edit #title{
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+  .home-link Link{
+    color:#b6d16d;
+  }
+}
